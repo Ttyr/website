@@ -1,0 +1,68 @@
+
+*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+#header{
+	width: auto;
+	height: 103px;
+}
+#header #logo{
+	margin-left: 100px;
+	margin-top: 10px;
+	width: 300px;
+	height: 103px;
+	float: left;
+}
+#header .tel{
+	width: 180px;
+	height: 40px;
+	margin-top: 10px;
+	position: absolute;
+	right: 150px;
+	font-size: 12px;
+}
+#header .tel img{
+	margin-top: 5px;
+	float: left;
+}
+#header .tel p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+	float: left;
+	color: blue;
+	vertical-align: top;
+}
+#header #nav{
+	width: 700px;
+	height: 53px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+#header #nav ul li{
+	list-style-type: none;
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 53px;
+}
+#header #nav a:link{
+	font-size: 14px;
+}
+#header #nav a:visited{
+	color: black;
+	font-size: 14px;
+}
+#header #nav a:hover{
+	color: red;
+	font-size: 14px;
+	text-decoration: underline;
+}
+#banner{
+    height: 280px;
+    width: 100%;
+}

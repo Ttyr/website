@@ -1,0 +1,536 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*a{
+	transition: 1s;
+	-webkit-transition: 1s;
+}*/
+#header{
+	width: auto;
+	height: 103px;
+}
+#header #logo{
+	margin-left: 100px;
+	margin-top: 10px;
+	width: 300px;
+	height: 103px;
+	float: left;
+}
+#header .tel{
+	width: 180px;
+	height: 40px;
+	margin-top: 10px;
+	position: absolute;
+	right: 150px;
+	font-size: 12px;
+}
+#header .tel img{
+	margin-top: 5px;
+	float: left;
+}
+#header .tel p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+	float: left;
+	color: blue;
+	vertical-align: top;
+}
+#header #nav{
+	width: 700px;
+	height: 53px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+#header #nav ul li{
+	list-style-type: none;
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 53px;
+}
+#banner{
+	width: auto;
+	height: 400px;
+    clear: left;
+}
+*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+/* 本例子css */
+		.slideBox{ width:auto; height:400px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+		.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+		.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+		.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+		.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+		.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+		.slideBox .bd li{ zoom:1; vertical-align:middle; }
+		.slideBox .bd img{ width:auto; height:400px; display:block;  }
+
+		/* 下面是前/后按钮代码，如果不需要删除即可 */
+		.slideBox .prev,
+		.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../img/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+		.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+		.slideBox .prev:hover,
+		.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+		.slideBox .prevStop{ display:none;  }
+		.slideBox .nextStop{ display:none;  }
+
+
+#header #nav a:link{
+	font-size: 14px;
+}
+#header #nav a:visited{
+	color: black;
+	font-size: 14px;
+}
+#header #nav a:hover{
+	color: red;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+#about{
+	width: auto;
+	height: 370px;
+	position: relative;
+}
+#about .about_left{
+	width: 50%;
+	height: 370px;
+	float: left;
+}
+#about .about_left .block1{
+	width: 535px;
+	height: 185px;
+	border: solid 1px gainsboro;
+	margin-left: 126px;
+	margin-top: 85px;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+#about .about_left .block1:hover,#about .about_right .block2:hover{
+	margin-top: 75px;
+	box-shadow:0 5px 10px #aaa;
+}
+#about .tu{
+	width: 64px;
+	height: 64px;
+	margin-top: 60px;
+	margin-left: 60px;
+	float: left;
+	background-image: url(../img/about_bg.png);
+}
+#about .about_left .block1 .tu{
+	background-position: 0 0;
+}
+#about .about_left .block1:hover .tu{
+	background-position: 0 -64px;
+}
+#about .text{
+	width: 310px;
+	height: 110px;
+	float: right;
+	margin-right: 35px;
+	margin-top: 37px;
+}
+#about .text h2{
+	color: #666;
+	font-size: 20px;
+}
+#about .block1:hover h2,#about .block2:hover h2{
+	color: white;
+}
+#about .text p{
+	color: #aaa;
+	font-size: 14px;
+	margin-top: 20px;
+}
+#about .about_right{
+	width: 50%;
+	height: 370px;
+	float: left;
+}
+#about .about_right .block2{
+	width: 535px;
+	height: 185px;
+	border: solid 1px gainsboro;
+	margin-right: 126px;
+	margin-top: 85px;
+    transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+#about .about_right .block2:hover,.about_left .block1:hover{
+	background-color:#00408f;
+	border:1px solid #00408f;
+}
+#about .about_right .block2 .tu{
+	background-position: -64px 0;
+}
+#about .about_right .block2:hover .tu{
+	background-position: -64px -64px;
+}
+/*盐湖风光部分*/
+#scenery{
+	width: auto;
+	height: 630px;
+	background-color:#f2f4f6;
+	position: relative;
+}
+.box1{
+
+	width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+    top: 70px;
+    position: relative;
+   background: url(../img/title_bg.png) repeat-x 0 10px;
+  
+}
+#span_div{
+   justify-content: center;
+   display: -webkit-flex;
+   margin-top: 15px;
+}
+.box1 p{
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: grey;
+}
+.box1 h2{
+	text-align: center;
+    margin-left: 500px;
+	margin-right: 500px;
+	background:#f2f4f6;
+    font-size: 20px;
+}
+.box1 span{
+	height: 1px;
+	width: 50px;
+    text-align: center;
+	background: #18ddb6;
+}
+.box2{
+	width: 1176px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+}
+			/*盐湖风采*/
+/*.pro{ width:100%; height:630px; background:#f2f4f6; overflow:hidden; min-width:1100px;}*/
+/*.box_title{ width:1100px; margin:0 auto; height:60px;   background:url(../images/title_bg.png) repeat-x 0 10px; text-align:center;}
+.box_title h2{ font-size:20px; font-weight:100; color:#333; padding:0 15px;  display:inline-block;}
+.box_title p{ font-size:12px; color:#888; text-transform:uppercase;}
+.box_title span{ display:inline-block; width:50px; height:1px; background:#18ddb6; margin-top:15px;}*/
+
+
+/*.pro_t{margin-top:70px;}
+.pro_t h2{background:#f2f4f6;}*/
+#scenery .con{width:1220px;
+  height:300px;
+  margin:30px auto 50px;
+  position:relative;}
+#scenery .con .btn{ width:30px; height:30px; background:#d9dbdd; border-radius:50%; font-size:20px; color:#fff; text-align:center; line-height:30px; position:absolute; top:50%; margin-top:-15px;}
+#scenery .con .left{left:0}
+#scenery .con .right{right:0}
+
+#scenery .con .center{ width:1100px; height:300px; margin-left:60px; overflow:hidden;}
+#scenery .con .center ul{width:5000px;}
+#scenery .con .center li{ float:left; width:268px; padding-right:9px; position:relative;}
+
+
+#scenery .more{width:226px; height:48px; border:1px solid #202524; display:block; color:#202524; text-align:center; line-height:48px; font-size:12px; margin:0px auto; position:relative; transition:0.3s;}
+#scenery .more:hover{ background:#00b3e1; color:#fff; border:1px solid #00b3e1;}
+
+#scenery .more i{ display:block; width:6px; height:11px; background:url(../img/scenery_m_bg.png); position:absolute; top:50%; margin-top:-5px; left:180px; transition:left 0.3s;}
+#scenery .more:hover i{ background-position:0 -11px;left:190px;}
+
+/*课程介绍 轮播*/
+/*.friend{height:300px;margin:50px auto;overflow:hidden;width:1176px;}*/
+
+.mr_frBtnL{cursor:pointer;display:inline;float:left;height:46px;margin:120px 0px 0 0;width:28px;}
+.mr_frUl{float:left;height:300px;width:1100px; margin:0 10px;}
+.mr_frBtnR{float:left;margin-top:120px;cursor:pointer;width:28px;height:46px;}
+.mr_frUl ul li{display:block;float:left;height:300px;width:268px;overflow:hidden;position:relative; padding-right:9px;}
+
+.mr_frUl ul li a img{display:block;width:100%;}
+
+.mr_frUl ul li .bg{width:268px; height:300px; background:rgba(0,179,225,0.7); position:absolute; top:0;left:0; text-align:center; opacity:0; transition:0.3s;}
+.mr_frUl ul li:hover .bg{opacity:1;}
+.mr_frUl ul li .bg h3{ font-size:20px; color:#fff; line-height:1em; font-weight:100; margin-top:55px;}
+.mr_frUl ul li .bg p{ font-size:12px; color:#fff; padding:0 40px; line-height:1.6em;}
+.mr_frUl ul li .bg b{ display:block; width:50px; height:1px; background:#8fdaf0; margin:10px auto 20px;}
+.mr_frUl ul li .bg div{width:92px; height:32px; text-align:center; line-height:32px; font-weight:900; font-size:16px; color:#fff; margin:70px auto 0; position:relative;}
+.mr_frUl ul li .bg div i{ display:block; position:absolute; background:#fff; transition:0.5s; opacity:0.3}
+.mr_frUl ul li .bg div .t{width:100%; height:2px;top:0;left:-100%}
+.mr_frUl ul li .bg div .b{width:100%; height:2px; bottom:0; left:100%}
+.mr_frUl ul li .bg div .l{width:2px; height:100%;top:-100%;left:0;}
+.mr_frUl ul li .bg div .r{width:2px; height:100%;top:100%;right:0}
+.mr_frUl ul li:hover .bg div i{ opacity:1}
+.mr_frUl ul li:hover .bg div .t{left:0}
+.mr_frUl ul li:hover .bg div .b{left:0}
+.mr_frUl ul li:hover .bg div .l{top:0;}
+.mr_frUl ul li:hover .bg div .r{top:0;}
+
+
+/*新闻部分*/
+#news{
+	width: auto;
+	height: 610px;
+	position: relative;
+}
+#news_top
+{
+	width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+    top: 70px;
+    position: relative;
+    background: url(../img/title_bg.png) repeat-x 0 10px;
+}
+#news_top h2{
+	text-align: center;
+    margin-left: 500px;
+	margin-right: 500px;
+	background: white;
+    font-size: 20px;
+}
+#news_top p{
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: grey;
+}
+#news_top span{
+	display: inline-block;
+	height: 1px;
+	width: 50px;
+	background: #18ddb6;
+}
+#news_btm{
+	width: 1100px;
+	height: 340px;
+	margin: 0px auto;
+	margin-top:120px;
+}
+#news_btm #news_pic{
+	width: 660px;
+	height: 340px;
+	float: left;
+	margin-right: 20px;
+	
+}
+#news_btm #news_pic #news_pic_l{
+	width: 182px;
+	height: 340px;
+	float: left;
+	background-color: #3f434c;
+}
+#news_btm #news_pic #news_pic_l img{
+	margin-left: 22px;
+	margin-top:25px;
+}
+#news_btm #news_pic #news_pic_l h3{
+	margin-left: 22px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 20px;
+}
+#xinwen{
+	width: 160px;
+	height: 90px;
+	margin-left: 22px;
+	background:#00b3e1;
+}
+#dongtai{
+	width: 150px;
+	height: 90px;
+	margin-left: 22px;
+	margin-top: 10px;
+	background: #00408f;
+}
+#dongtai:hover{
+	width: 160px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+.news_tu{
+	width: 28px;
+	height: 30px;
+	margin-top: 35px;
+	margin-left: 20px;
+	float: left;
+	background-image: url(../img/news_l_bg.png);
+}
+.news_text
+{
+	width: 80px;
+	height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.news_text h4{
+	font-size: 16px;
+	color: white;
+}
+.news_text p{
+	color: white;
+	opacity: 0.7;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+#news_btm #news_pic #news_pic_r{
+	width: 474px;
+	height: 338px;
+	float: left;
+	border: 1px solid #d0d0d0;
+	border-left:3px solid #00b3e1;
+}
+#news_btm #news_pic #news_pic_r h4{
+	color: #00b3e1;
+	font-size: 14px;
+	margin: 30px auto 0px 30px;
+}
+#news_btm #news_pic #news_pic_r p{
+	margin: 20px 10px 0px 30px;
+	text-indent: 2em;
+	opacity: 0.7;
+}
+#news_btm #news_pic #news_pic_r p a:link{
+	color: #00B3E1;
+}
+#news_btm #news_pic #news_pic_r p a:hover{
+	color: #00B3E1;
+}
+#news_btm #news_pic #news_pic_r ul li{
+	margin: 30px 10px 30px 40px;
+	list-style-type: disc;
+	font-weight: bold;
+	opacity: 0.9;
+}
+#news_btm #news_pic #news_pic_r ul li span{
+	float: right;
+	color: gray;
+	opacity: 0.5;
+}
+#news_btm #news_pic #news_pic_r ul a:hover{
+	color: #00b3e1;
+}
+#news_btm #news_video{
+	width: 420px;
+	height: 340px;
+	float: left;
+}
+#news_btm #news_video #news_video_t{
+	width: 420px;
+	height: 274px;
+}
+#news_btm #news_video #news_video_b{
+	width: 418px;
+	height: 45px;
+	padding-top: 20px;
+	border: 1px solid gainsboro;
+    border-top: none;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1em;
+}
+#news_btm #news_video #news_video_b p{
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	color: grey;
+}
+/*footer部分*/
+#footer{
+	width: auto;
+	height: 250px;
+}
+#footer .info{
+	width: auto;
+	height: 215px;
+	background-color: #00b3e1;
+}
+#footer .info .ft_logo{
+	width: 20%;
+    height: 147px;
+	margin-top: 40px;
+    float: left;
+    text-align:right;
+}
+#footer .info .content{
+	width: 40%;
+	height: 150px;
+	margin-top: 47px;
+	padding-left: 50px;
+    float: left;
+    color: white;
+    font-size: 14px;
+}
+.ft_tel{
+	font-size: 23px;
+	font-weight: bold;
+	vertical-align: top;
+}
+#footer .info .erweima{
+	width:30% ;
+	height: 105px;
+	margin-top: 50px;
+    float: left;
+	vertical-align: middle;
+}
+#footer .ft_btm{
+	width: auto;
+    height: 35px;
+    background-color:#00408f;
+}
+#footer .ft_btm .link{
+	width: 120px;
+	height: 20px;
+	border: 1px solid white;
+	margin-left: 175px;
+	margin-top: 5px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+#footer .ft_btm .link p{
+	line-height: 20px;
+	margin-left: 10px;
+	color: white;
+	float: left;
+}
+#footer .ft_btm .link span{
+	float: right;
+	margin-right: 10px;
+}
+#footer .ft_btm .link #link_menu{
+	display: none;
+	background-color: white;
+	width: 117px;
+	height: 65px;
+	position: absolute;
+	left: -1px;
+	bottom: 21px;
+	padding-left: 5px;
+}
+#footer .ft_btm .link #link_menu li:hover{
+	background-color: gainsboro;
+	color: red;
+}
+#footer .ft_btm .copyright{
+	margin-left: 500px;
+	line-height: 35px;
+	float: left;
+	color: white;
+}
